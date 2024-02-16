@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            
+        }
+        .first{
+            color: #0c23ef;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .forgot-password {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .forgot-password a {
+            color: #0c20d1;
+            text-decoration: none;
+        }
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            border-style: double;
+            border-color: black;
+        }
+        .login-button:hover {
+            border-radius: 100%;
+            box-shadow: 10px 10px 10px black;
+            background-color: #1d6c3a;
+        }
+        .google{
+            width: 40px;
+            height: 20px;
+            border-radius: 100%;
+        }
+        .linkedin{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+        }
+        .social{
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body style="background-image: url('background.jpg');">
+    
+
+<div class="container">
+    
+    <div class="logo">
+        
+<img src="login.jpg" alt="Hey User, Please Login">
+<p class="first">Please Login before you continue</p>
+    </div>
+    <form>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <div class="forgot-password">
+            <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+        <div class="social">
+        <h6>login using social networks</h6>
+        <img src="googleimg" class="google" alt="Hey User, Please Login">
+        <img src="linkedin" class="linkedin" alt="Hey User, Please Login">
+        <img src="twitter.png" class="linkedin" alt="Hey User, Please Login">
+        <img src="fb.png" class="linkedin" alt="Hey User, Please Login">
+        <img src="insta.png" class="linkedin" alt="Hey User, Please Login">
+    </div>
+    </form>
+</div>
+
+</body>
+</html>
